@@ -1,0 +1,42 @@
+body {
+ font-family:secondFont;
+  background-color:green;
+  font-size:20px;
+}
+@keyframes spin {
+    from {
+        transform:rotate(-5deg);
+    }
+    to {
+        transform:rotate(5deg);
+    }
+}
+@font-face {
+  font-family:mainFont;
+  src:url(mai10.otf);
+}
+@font-face {
+  font-family:secondFont;
+  src:url(SeogoeUIBold.ttf)
+}
+h1 {
+  font-family:mainFont;
+  animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+h2 {
+  font-family:mainFont;
+}
+button{
+  background-color:lime;
+  border-radius:5px;
+  border:0;
+  font-family:secondFont;
+  font-size:15px;
+}
+button:hover{
+  background-color:#00dd00;
+}
