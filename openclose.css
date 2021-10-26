@@ -36,6 +36,7 @@ button{
   border:0;
   font-family:secondFont;
   font-size:15px;
+  font-weight:bold;
 }
 button:hover{
   background-color:#00dd00;
