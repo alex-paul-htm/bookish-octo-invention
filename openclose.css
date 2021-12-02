@@ -5,10 +5,10 @@ body {
 }
 @keyframes spin {
     from {
-        transform:rotate(-5deg);
+        transform:rotate(-8deg);
     }
     to {
-        transform:rotate(5deg);
+        transform:rotate(8deg);
     }
 }
 @font-face {
@@ -17,18 +17,34 @@ body {
 }
 @font-face {
   font-family:secondFont;
-  src:url(SeogoeUIBold.ttf)
+  src:url(SegoeUIBold.ttf)
 }
 h1 {
   font-family:mainFont;
   animation-name: spin;
-    animation-duration: 4000ms;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
 }
+/*uncomment this code for a good time*/
+/*body {*/
+/*  animation-name: spin;*/
+/*    animation-duration: 1.5ms;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-timing-function: linear;*/
+/*    animation-direction: alternate;*/
+/*}*/
 h2 {
   font-family:mainFont;
+}
+h3{
+  font-family: mainFont;
+  animation-name: spin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
 }
 button{
   background-color:lime;
